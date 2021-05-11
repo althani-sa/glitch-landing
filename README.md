@@ -1,2 +1,2 @@
 # glitch-landing
-Creating the landing page for glitch
+Recreating the landing page for glitch.
