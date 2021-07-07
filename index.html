@@ -1,230 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Ibrahim Althani - Web Developer</title>
-		<link rel="stylesheet" href="./css/main.css" />
 
-		<!-- Google Fonts -->
-		<link rel="preconnect" href="https://fonts.gstatic.com" />
-		<link
-			href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,300;0,400;0,500;0,700;1,400&display=swap"
-			rel="stylesheet"
-		/>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ibrahim Althani - Web Developer</title>
+    <link rel="stylesheet" href="./css/main.css" />
 
-		<!-- font awesome cdn -->
-		<script
-			src="https://kit.fontawesome.com/05e028396a.js"
-			crossorigin="anonymous"
-		></script>
-	</head>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet" />
 
-	<body>
-		<section
-			class="
+    <!-- font awesome cdn -->
+    <script src="https://kit.fontawesome.com/05e028396a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class="
 				full-screen-section
 				flex flex-column
 				flex-align_center
 				flex-content_center
 				section-border-bot
-			"
-		>
-			<p
-				class="
+			">
+        <p class="
 					center-align
 					large-font
 					text-align-l
 					line-height_dbl
 					margin-left margin-right
 					appear-anim
-				"
-			>
-				Hello! 👋
-				<br />
-				My name is
-				<span class="primary-color"> <br />Ibrahim Althani</span>
-				<br />
-				<span class="subtitle-color">
+				">
+            Hello! 👋
+            <br /> My name is
+            <span class="primary-color"> <br />Ibrahim Althani</span>
+            <br />
+            <span class="subtitle-color">
 					I am a Front-End <br />
 					Web Developer
 				</span>
-				<br />
-				I help
-				<span class="primary-color"> people</span>
-				develop their digital brand <br />
-				by
-				<span class="primary-color">
+            <br /> I help
+            <span class="primary-color"> people</span> develop their digital brand <br /> by
+            <span class="primary-color">
 					delivering a beautiful web experience
 				</span>
-			</p>
-			<button class="btn medium-font bold-text primary-color">
+        </p>
+        <button class="btn medium-font bold-text primary-color">
 				<a href="#ptf">View Projects</a>
 			</button>
 
-			<i class="fas fa-angle-double-down primary-color"></i>
-		</section>
-
-		<section
-			class="
-				full-screen-section
+        <i class="fas fa-angle-double-down primary-color"></i>
+    </section>
+    <section class="
+				section-border-bot
 				flex
 				flex-align_center
 				flex-column
-				section-border-bot
-			"
-			id="ptf"
-		>
-			<h1 class="cta-left">Portfolio</h1>
-			<div class="card flex flex-column flex-content_center flex-align_center">
-				<div class="margin-bottom-half">ibrahim.ai <br /></div>
-				<div class="img">
-					<img src="./media/undraw_financial_data_es63.svg" alt="" srcset="" />
-				</div>
-				<p>
-					My Portfolio Website. <br />
-					(You are here!)
+			">
+        <header class="large-font margin-top">Portfolio</header>
+        <div class=" flex flex-wrap flex-align_center flex-content_center">
+            <a class="card1" href="#">
+				<img src="./media/undraw_financial_data_es63.svg" alt="" class="img-card">
+                <h3 class="cta">Portfolio Website</h3>
+                <p class="small subtitle-color">Welcome to my Portfolio Website! This site was made from scratch using vanilla HTML5, CSS3, and Figma!</p>
+				<button class="btn cta">You are here!</button>
+            </a>
+
+            <a class="card1" href="#">
+                <img src="./media/undraw_static_assets_rpm6.png" alt="" srcset="" class="img-card">
+                <h3 class="cta">Dinosaur Infographic Generator</h3>
+                <p class="small subtitle-color">[In-Progress]! Working on a web app that will allow users to generate dinosaur facts via infographics
 				</p>
-			</div>
-			<div class="card flex flex-column flex-content_center flex-align_center">
-				<div class="txt margin-bottom-half margin-top">Dinosaurs!</div>
-				<div class="img">
-					<img
-						src="./media/undraw_work_in_progress_uhmv.png"
-						alt=""
-						srcset=""
-					/>
-					<p class="medium-font">
-						Dinosaur Infographic Generation Website – Work in Progress
-					</p>
-				</div>
-			</div>
-
-			<div class="card flex flex-column flex-content_center flex-align_center">
-				<div class="txt margin-bottom-half margin-top">Travel Web App</div>
-				<div class="img">
-					<img
-						src="./media/undraw_Travel_booking_re_6umu.png"
-						alt=""
-						srcset=""
-					/>
-					<p>Travel Capstone project that fetches data from multiple APIs</p>
-				</div>
-			</div>
-		</section>
-
-		<section
-			class="
+				<button class="btn cta">Coming Soon!</button>
+            </a>
+            <a class="card1" href="#">
+                <img src="./media/undraw_Destination_re_sr74.svg" alt="" class="img-card">
+                <h3 class="cta">Travel Web App Capstone</h3>
+                <p class="small subtitle-color">[Refactoring...] Developed a travel app that consumes multiple APIs using Node.js and Express.js to display detailed weather data, picture of selected location, and facts about selected country. </p>
+				<button class="btn cta">Coming Soon!</button>
+            </a>
+    </section>
+    <section class="
 				full-screen-section
-				flex flex-column
-				flex-align_center
 				section-border-bot
-				overflow-hidden
-			"
-			id="skls"
+			id=" skls "
 		>
-			<h1 class="margin-bottom primary-color">Skills</h1>
-			<div class="skill margin-bottom">
-				<div class="flex flex-content_center flex-column flex-align_center">
-					<p class="medium-font margin-bottom-half">HTML5</p>
-					<i class="fab fa-html5 primary-color"></i>
-					<p class="medium-font subtitle-color">
-						Semantic Tags – HTML5 Audio & Video
-					</p>
+		<!-- flex flex-column -->
+		<!-- flex-align_center -->
+			<h1 class="margin-top margin-bottom-i primary-color  flex flex-column flex-align_center margin-right">Skills</h1>
+			<!-- column 1 -->
+			<div class='margin-left '>
+				<div class='row'>
+				  <div class='column'>
+
+					<div>
+					<h2>HTML5</h2>
+					<i class="fab fa-html5 primary-color margin-bottom-i "></i>
+					<h2>CSS3</h2>
+					<i class="fab fa-css3-alt primary-color "></i>
+					<h3 class="small-font subtitle-color">TailwindCSS</h3>
+					<h3 class="small-font subtitle-color margin-bottom-i ">Bootstrap 5</h3>
+					<h2>JavaScript</h2>
+					<i class="fab fa-js primary-color "></i>
+					<h3 class="small-font subtitle-color margin-bottom-i ">ES6+</h3>
+					</div>
+				  </div>
+				  <div class='column'>
+					<div>
+						<h2>Node.js</h2>
+						<i class="fab fa-node primary-color "></i>
+						<h3 class="subtitle-color small-font margin-bottom-i ">Express.js</h3>
+						<h2>Python</h2>
+						<i class="fab fa-python primary-color "></i>
+						<h3 class="subtitle-color small-font margin-bottom-i ">Pandas, NumPy, Data Viz.</h3>
+						<h2>Version Control</h2>
+						<i class="fab fa-git primary-color "></i>
+						<h3 class="subtitle-color small-font margin-bottom-i ">Git + GitHub</h3>
+
+						</div>
+				  </div>
 				</div>
-			</div>
-			<div class="skill margin-bottom">
-				<div class="flex flex-content_center flex-column flex-align_center">
-					<p class="medium-font margin-bottom-half">CSS3</p>
-					<i class="fab fa-css3-alt primary-color"></i>
-					<p class="medium-font subtitle-color">
-						Bootstrap 5 – TailwindCSS – SASS
-					</p>
-				</div>
-			</div>
-			<div class="skill margin-bottom">
-				<div class="flex flex-content_center flex-column flex-align_center">
-					<p class="medium-font margin-bottom-half">JavaScript</p>
-					<i class="fab fa-js-square primary-color"></i>
-					<p class="medium-font subtitle-color">ES6+</p>
-				</div>
-			</div>
-			<div class="skill margin-bottom">
-				<div class="flex flex-content_center flex-column flex-align_center">
-					<p class="medium-font margin-bottom-half">Node.js</p>
-					<i class="fab fa-node primary-color"></i>
-					<p class="medium-font subtitle-color">Express.js – npm</p>
-				</div>
-			</div>
-			<div class="skill margin-bottom">
-				<div class="flex flex-content_center flex-column flex-align_center">
-					<p class="medium-font margin-bottom-half">Version Contol</p>
-					<i class="fab fa-git primary-color"></i>
-					<p class="medium-font subtitle-color">Git – GitHub</p>
-				</div>
-			</div>
+			  </div>
+			<div class="row flex column1 flex-wrap ">
+
+	</div>
 		</section>
-
 		<section
-			id="hir"
-			class="flex flex-column flex-align_center full-screen-section"
+			id="hir "
+			class="flex flex-column flex-align_center full-screen-section "
 		>
-			<h1 class="margin-top overflow-hidden">Contact Me</h1>
-			<form action="" class="flex flex-column margin-top" netlify method="POST">
-				<h2 class="medium-font primary-color">Your Name</h2>
+			<h1 class="margin-top overflow-hidden ">Contact Me</h1>
+			<form action=" " class="flex flex-column margin-top " netlify method="POST ">
+				<h2 class="medium-font primary-color ">Your Name</h2>
 				<input
-					type="text"
-					class="margin-bottom-dbl form-bg form-input form-text"
-					placeholder="Enter your name..."
+					type="text "
+					class="margin-bottom-dbl form-bg form-input form-text "
+					placeholder="Enter your name... "
 				/>
-				<h2 class="medium-font primary-color">Your e-mail address</h2>
+				<h2 class="medium-font primary-color ">Your e-mail address</h2>
 
 				<input
-					type="email"
+					type="email "
 					name=" "
-					id=""
-					spellcheck="true"
-					class="form-bg margin-bottom-dbl form-input form-text"
-					placeholder="Enter your email address..."
+					id=" "
+					spellcheck="true "
+					class="form-bg margin-bottom-dbl form-input form-text "
+					placeholder="Enter your email address... "
 				/>
-				<h2 class="medium-font primary-color">Your Message</h2>
+				<h2 class="medium-font primary-color ">Your Message</h2>
 				<textarea
-					name="text-area"
-					id=""
-					cols="30"
-					rows="10"
-					class="form-bg form-text-input form-text"
-					placeholder="Write your message here..."
+					name="text-area "
+					id=" "
+					cols="30 "
+					rows="10 "
+					class="form-bg form-text-input form-text "
+					placeholder="Write your message here... "
 				></textarea>
-				<div class="flex flex-align_center">
+				<div class="flex flex-align_center ">
 					<input
-						type="submit"
-						value="Submit"
-						class="btn medium-font primary-color margin-bottom bold-text"
+						type="submit "
+						value="Submit "
+						class="btn medium-font primary-color margin-bottom bold-text text-align-c"
 					/>
 				</div>
 			</form>
-			<div class="socials flex flex-row margin-top">
-				<a href="https://www.linkedin.com/in/ibrahimii/" class="no-color-links"
-					><i class="fab fa-linkedin margin-right-1"></i
+			<div class="socials flex flex-row margin-top ">
+				<a href="https://www.linkedin.com/in/ibrahimii/ " class="no-color-links "
+					><i class="fab fa-linkedin margin-right-1 "></i
 				></a>
-				<a href="https://twitter.com/IbrahimAI_" class="no-color-links"
-					><i class="fab fa-twitter-square margin-right-1"></i
+				<a href="https://twitter.com/IbrahimAI_ " class="no-color-links "
+					><i class="fab fa-twitter-square margin-right-1 "></i
 				></a>
-				<a href="https://github.com/althani-sa" class="no-color-links"
-					><i class="fab fa-github-square"></i
+				<a href="https://github.com/althani-sa " class="no-color-links "
+					><i class="fab fa-github-square "></i
 				></a>
 			</div>
-			<p class="margin-top"><br />Ibrahim Althani &copy; 2021</p>
+			<p class="margin-top "><br />Ibrahim Althani &copy; 2021</p>
 		</section>
 
-		<footer class="sticky-footer flex flex-content_space">
-			<ul class="sticky-ul flex flex-align_center">
-				<li><a href="#ptf">Portfolio</a></li>
-				<li><a href="#skls">Skills</a></li>
-				<li><a href="#hir">Hire Me</a></li>
-			</ul>
-		</footer>
+
 	</body>
 </html>
