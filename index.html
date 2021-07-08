@@ -23,6 +23,7 @@
 				flex-align_center
 				flex-content_center
 				section-border-bot
+				parent
 			">
         <p class="
 					center-align
@@ -31,6 +32,7 @@
 					line-height_dbl
 					margin-left margin-right
 					appear-anim
+					div1
 				">
             Hello! 👋
             <br /> My name is
@@ -46,9 +48,10 @@
 					delivering a beautiful web experience
 				</span>
         </p>
-        <button class="btn medium-font bold-text primary-color">
-				<a href="#ptf">View Projects</a>
-			</button>
+		<button class="div2 btn medium-font bold-text primary-color">
+			<a href="#ptf">View Projects</a>
+		</button>
+		<img src="./media/undraw_financial_data_es63.svg" alt="" class="hero-img display-none div3">
 
         <i class="fas fa-angle-double-down primary-color"></i>
     </section>
@@ -60,13 +63,13 @@
 			">
         <header class="large-font margin-top">Portfolio</header>
         <div class=" flex flex-wrap flex-align_center flex-content_center">
-            <a class="card1" href="#">
+            <div class="card1" href="#">
 				<img src="./media/undraw_financial_data_es63.svg" alt="" class="img-card">
                 <h3 class="cta">Portfolio Website</h3>
                 <p class="small subtitle-color">Welcome to my Portfolio Website! This site was made from scratch using vanilla HTML5, CSS3, and Figma!</p>
 				<button class="btn cta">You are here!</button>
-            </a>
-
+			</div>
+			</div>
             <a class="card1" href="#">
                 <img src="./media/undraw_static_assets_rpm6.png" alt="" srcset="" class="img-card">
                 <h3 class="cta">Dinosaur Infographic Generator</h3>
@@ -81,14 +84,15 @@
 				<button class="btn cta">Coming Soon!</button>
             </a>
     </section>
+
     <section class="
 				full-screen-section
 				section-border-bot
+				skill-parent
 			id=" skls "
 		>
-		<!-- flex flex-column -->
-		<!-- flex-align_center -->
-			<h1 class="margin-top margin-bottom-i primary-color  flex flex-column flex-align_center margin-right">Skills</h1>
+		<!-- <h1 class="margin-top margin-bottom-i primary-color  flex flex-column flex-align_center margin-right">Skills</h1> -->
+
 			<!-- column 1 -->
 			<div class='margin-left '>
 				<div class='row'>
@@ -178,7 +182,5 @@
 			</div>
 			<p class="margin-top "><br />Ibrahim Althani &copy; 2021</p>
 		</section>
-
-
 	</body>
 </html>
